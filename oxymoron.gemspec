@@ -1,6 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
 require 'oxymoron/version'
 
 Gem::Specification.new do |spec|
@@ -8,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.version       = Oxymoron::VERSION
   spec.authors       = ["Cesar Camacho"]
   spec.email         = ["chanko@gmail.com"]
-  spec.summary       = %q{Access S3 remote files, locally.}
+  spec.summary       = %q{Create a local copy of a remote file}
   spec.description   = ""
   spec.homepage      = ""
   spec.license       = "MIT"
