@@ -1,3 +1,5 @@
+https://codeship.com/projects/bbb48cc0-b944-0132-7937-525e2ea92bd0/status?branch=master
+
 # Oxymoron
 
 TODO: Write a gem description
